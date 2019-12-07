@@ -9,6 +9,8 @@ import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
+import { Jumbotron } from "./component/jumbotron";
+import { Card } from "./component/card";
 
 //create your first component
 export const Layout = () => {
@@ -21,12 +23,20 @@ export const Layout = () => {
 			<BrowserRouter>
 				<ScrollToTop>
 					<Navbar />
-					<Switch>
-						<Route exact path="/" component={Home} />
-						<Route path="/demo" component={Demo} />
-						<Route path="/single/:theid" component={Single} />
-						<Route render={() => <h1>Not found!</h1>} />
-					</Switch>
+					<Jumbotron />
+				</ScrollToTop>
+			</BrowserRouter>
+		</div>
+	);
+};
+
+export const Layout2 = () => {
+	return (
+		<div className="d-flex flex-row h-100">
+			<BrowserRouter>
+				<ScrollToTop>
+					<Card />
+					<Card />
 					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
@@ -34,4 +44,4 @@ export const Layout = () => {
 	);
 };
 
-export default injectContext(Layout);
+export default injectContext(Layout, Layout2);
