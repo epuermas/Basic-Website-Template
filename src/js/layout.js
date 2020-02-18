@@ -26,6 +26,7 @@ export const Layout = () => {
 					<Jumbotron />
 				</ScrollToTop>
 			</BrowserRouter>
+			<Footer />
 		</div>
 	);
 };
