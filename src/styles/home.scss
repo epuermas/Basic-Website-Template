@@ -3,33 +3,61 @@
     background-size: cover;
     background-position: left;
 }
-
 .display-4 {
     color: white;
     margin-left: 7%;
 }
-
 .lead {
     color: white;
     margin-left: 7%;
 }
-
 .btn {
     margin-left: 7%;
 }
-
+/*footer styling*/
 .footer {
     background-color: #3F427F;
-    min-width: 100%;
 }
 .footer-text {
     color: white;
 }
+.footer-home {
+    position: absolute;
+    bottom: 0%;
+    min-width: 100%;
+}
+/* unvisited link */
 a:link {
   color: white;
 }
-
 /* visited link */
 a:visited {
   color: #F7A335;
+}
+/*navbar styling*/
+.navbar{
+    min-height: 50px;
+    min-width: 100%;
+}
+.nav-logo{
+    position: absolute;
+    max-height: 60px;
+    max-width: 60px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.nav-home {
+    position: absolute;
+    left: 4%;
+    bottom: 25%;
+}
+.nav-skills {
+    position: absolute;
+    left: 8%;
+    bottom: 25%;
+}
+.nav-projects {
+    position: absolute;
+    left: 12%;
+    bottom: 25%;
 }

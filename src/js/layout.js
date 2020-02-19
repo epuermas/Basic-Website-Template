@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
-import { Demo } from "./views/demo";
+import { Skills } from "./views/skills";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
@@ -23,26 +23,14 @@ export const Layout = () => {
 			<BrowserRouter>
 				<ScrollToTop>
 					<Navbar />
-					<Jumbotron />
-				</ScrollToTop>
-			</BrowserRouter>
-			<Footer />
-		</div>
-	);
-};
-
-export const Layout2 = () => {
-	return (
-		<div className="d-flex flex-row h-100">
-			<BrowserRouter>
-				<ScrollToTop>
-					<Card />
-					<Card />
-					<Footer />
+					<Switch>
+						<Route exact path="/" component={Home} />
+						<Route exact path="/skills" component={Skills} />
+					</Switch>
 				</ScrollToTop>
 			</BrowserRouter>
 		</div>
 	);
 };
 
-export default injectContext(Layout, Layout2);
+export default injectContext(Layout);
