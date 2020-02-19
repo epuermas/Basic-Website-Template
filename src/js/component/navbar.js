@@ -31,9 +31,9 @@ export const Navbar = () => {
 						</Link>
 					</li>
 					<li className="nav-item">
-						<a className="nav-projects" href="#">
+						<Link to={"projects"} className="nav-projects" href="#" id="navFind">
 							Projects
-						</a>
+						</Link>
 					</li>
 				</ul>
 			</div>

@@ -4,7 +4,7 @@ import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
 import { Skills } from "./views/skills";
-import { Single } from "./views/single";
+import { Projects } from "./views/projects";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
@@ -26,7 +26,9 @@ export const Layout = () => {
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route exact path="/skills" component={Skills} />
+						<Route exact path="/projects" component={Projects} />
 					</Switch>
+					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
 		</div>

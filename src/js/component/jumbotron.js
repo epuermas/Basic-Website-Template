@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Context } from "../store/appContext";
+import { Modal } from "./modal";
 
 export const Jumbotron = () => {
 	return (
@@ -16,9 +18,9 @@ export const Jumbotron = () => {
 				leveraged towards working on projects in a team environment.
 			</p>
 			<br />
-			<a className="btn btn-primary btn-lg" href="#" role="button">
+			<button className="btn btn-primary btn-lg" data-toggle="modal" data-target={Modal}>
 				Learn more
-			</a>
+			</button>
 			<br />
 		</div>
 	);
