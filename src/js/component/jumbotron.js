@@ -27,7 +27,7 @@ export const Jumbotron = () => {
 				View Resume
 			</Button>
 
-			<Modal show={show} onHide={handleClose} dialogClassName="modal-150w">
+			<Modal show={show} size="lg" onHide={handleClose} dialogClassName="modal-150w" className="modal">
 				<Modal.Header closeButton>
 					<Modal.Title>
 						<p className="modal-title">Resume</p>
