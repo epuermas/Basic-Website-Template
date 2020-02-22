@@ -69,6 +69,44 @@ export const Projects = props => {
 						</a>
 					</div>
 				</div>
+				{/* Traffic light List */}
+				<div className="traffic-light card" style={{ width: "18rem" }}>
+					<img src="https://i.imgur.com/Ae8dXuT.jpg" className="card-img-top" alt="..." />
+					<div className="card-body">
+						<h5 className="card-title">Interactive Traffic Light</h5>
+						<p className="card-text">
+							Code that prints an interactive traffic light, onlick user can turn on lights.
+							<br />
+							<br />
+						</p>
+						<a
+							href="https://github.com/epuermas/Interactive-Traffic-Light"
+							className="btn btn-primary"
+							target="_blank"
+							rel="noopener noreferrer">
+							Go to repository
+						</a>
+					</div>
+				</div>
+				{/* Seconds Counter List */}
+				<div className="seconds-counter card" style={{ width: "18rem" }}>
+					<img src="https://i.imgur.com/Ae8dXuT.jpg" className="card-img-top" alt="..." />
+					<div className="card-body">
+						<h5 className="card-title">Seconds Counter</h5>
+						<p className="card-text">
+							Code that triggers a seconds counter as soon as the page refreshes.
+							<br />
+							<br />
+						</p>
+						<a
+							href="https://github.com/epuermas/Seconds-Counter"
+							className="btn btn-primary"
+							target="_blank"
+							rel="noopener noreferrer">
+							Go to repository
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
