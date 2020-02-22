@@ -5,6 +5,7 @@ import { Context } from "../store/appContext";
 import { Modal, Button } from "react-bootstrap";
 
 export const Jumbotron = () => {
+	const [lgShow, setLgShow] = useState(false);
 	const [show, setShow] = useState(false);
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
@@ -26,19 +27,21 @@ export const Jumbotron = () => {
 				View Resume
 			</Button>
 
-			<Modal show={show} onHide={handleClose}>
+			<Modal show={show} onHide={handleClose} dialogClassName="modal-150w">
 				<Modal.Header closeButton>
 					<Modal.Title>
-						<p>Resume</p>
+						<p className="modal-title">Resume</p>
 					</Modal.Title>
 				</Modal.Header>
 
 				<Modal.Body>
-					<p>Woohoo, youre reading this text in a modal!</p>
+					<div>
+						<img className="resume" src="https://i.imgur.com/5bStlUY.jpg" />
+					</div>
 				</Modal.Body>
 
 				<Modal.Footer>
-					<Button variant="primary" onClick={handleClose}>
+					<Button variant="primary" id="modal-button" onClick={handleClose}>
 						<p>Close</p>
 					</Button>
 				</Modal.Footer>
