@@ -5,7 +5,6 @@ import { Context } from "../store/appContext";
 import { Modal, Button } from "react-bootstrap";
 
 export const Jumbotron = () => {
-	// const { store, actions } = useContext(Context);
 	const [show, setShow] = useState(false);
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
@@ -23,18 +22,14 @@ export const Jumbotron = () => {
 				leveraged towards working on projects in a team environment.
 			</p>
 			<br />
-			{/* <button className="btn btn-primary btn-lg" data-toggle={Modal} data-target={Modal}>
-				Open Resume
-			</button> */}
 			<Button variant="btn btn-primary btn-lg" onClick={handleShow}>
-				Launch demo modal
+				View Resume
 			</Button>
-			<br />
 
 			<Modal show={show} onHide={handleClose}>
 				<Modal.Header closeButton>
 					<Modal.Title>
-						<p>Modal heading</p>
+						<p>Resume</p>
 					</Modal.Title>
 				</Modal.Header>
 
@@ -43,11 +38,8 @@ export const Jumbotron = () => {
 				</Modal.Body>
 
 				<Modal.Footer>
-					<Button variant="secondary" onClick={handleClose}>
-						<p>Close</p>
-					</Button>
 					<Button variant="primary" onClick={handleClose}>
-						<p>Save Changes</p>
+						<p>Close</p>
 					</Button>
 				</Modal.Footer>
 			</Modal>
