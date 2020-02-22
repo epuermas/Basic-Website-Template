@@ -50,12 +50,6 @@
 #linkedin-footer {
     color: white;
 }
-a:link {
-  color: black;
-}
-a:visited {
-  color: #F7A335;
-}
 /*navbar styling*/
 .navbar{
     min-height: 50px;
@@ -157,4 +151,17 @@ a:visited {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 30px;
+}
+/*projects styling*/
+.discover-law {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contact-list {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.todo-list {
+    margin-left: 20px;
+    margin-right: 20px;
 }
