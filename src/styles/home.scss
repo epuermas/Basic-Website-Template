@@ -50,11 +50,9 @@
 #linkedin-footer {
     color: white;
 }
-/* unvisited link */
 a:link {
   color: black;
 }
-/* visited link */
 a:visited {
   color: #F7A335;
 }
@@ -116,43 +114,47 @@ a:visited {
     max-height:125px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 20px;
 }
 .restapi {
     max-height:125px;
     margin-left: 17px;
     margin-right: 17px;
+    margin-top: 20px;
 }
 .postman {
     max-height:125px;
     margin-left: 17px;
     margin-right: 17px;
+    margin-top: 20px;
 }
 .github {
     max-height:100px;
     margin-left: 17px;
     margin-right: 17px;
-    margin-top: 7px;
+    margin-top: 27px;
 }
 .python {
     max-height:120px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 7px;
+    margin-top: 27px;
 }
 .nodejs {
     max-height:125px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 20px;
 }
 .mysql {
     max-height:110px;
     margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 7px;
+    margin-right: 25px;
+    margin-top: 27px;
 }
 .flask {
     max-height:100px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
