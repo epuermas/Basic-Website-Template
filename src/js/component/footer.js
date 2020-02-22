@@ -7,7 +7,7 @@ export const Footer = () => (
 			<a href="https://github.com/epuermas">Eduardo Puermas</a>
 		</p>
 		<div className="footer-icons align-self-center">
-			<i
+			<a
 				className="fab fa-linkedin"
 				a
 				href="https://www.linkedin.com/in/eduardopuermas8698/"
@@ -15,7 +15,7 @@ export const Footer = () => (
 				target="_blank"
 				rel="noopener noreferrer"
 			/>
-			<i
+			<a
 				className="fab fa-github-square"
 				a
 				href="https://github.com/epuermas"
