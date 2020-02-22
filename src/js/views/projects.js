@@ -5,5 +5,5 @@ import { Context } from "../store/appContext";
 
 export const Projects = props => {
 	const { store, actions } = useContext(Context);
-	return <div className="projects" />;
+	return <div className="projects-content" />;
 };

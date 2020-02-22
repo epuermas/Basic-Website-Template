@@ -7,7 +7,7 @@ import { Footer } from "../component/footer";
 
 export const Home = () => {
 	return (
-		<div className="content">
+		<div className="home-content">
 			<div className="d-flex flex-column h-100">
 				<div className="jumbotron-home">
 					<Jumbotron />
