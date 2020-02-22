@@ -4,7 +4,9 @@ export const Footer = () => (
 	<footer className="footer mt-auto py-3 text-center">
 		<p className="footer-text">
 			Made with <i className="fa fa-heart text-danger" /> by{" "}
-			<a href="https://github.com/epuermas">Eduardo Puermas</a>
+			<a href="https://www.instagram.com/eddy_prms/" target="_blank" rel="noopener noreferrer">
+				Eduardo Puermas
+			</a>
 		</p>
 		<div className="footer-icons align-self-center">
 			<a

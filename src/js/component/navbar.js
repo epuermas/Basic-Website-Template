@@ -20,9 +20,14 @@ export const Navbar = () => {
 			</button>
 			<div className="collapse navbar-collapse" id="navbarNav">
 				<ul className="navbar-nav">
-					<li className="nav-item active">
+					{/* <li className="nav-item active">
 						<Link to={"/"} className="nav-home" href="#" id="navFind">
 							Home
+						</Link>
+                    </li> */}
+					<li className="nav-item">
+						<Link to={"about"} className="nav-about" href="#" id="navFind">
+							About Me
 						</Link>
 					</li>
 					<li className="nav-item">
