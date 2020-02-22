@@ -5,9 +5,9 @@ import { Context } from "../store/appContext";
 export const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light bg-light">
-			<a className="nav-logo" href="#">
-				<img src="https://i.imgur.com/KK3xtxv.png" width="100%" alt="" className="pull-left" />
-			</a>
+			<Link to={"/"} className="nav-logo" href="#">
+				<img src="https://i.imgur.com/KK3xtxv.png" width="100%" alt="" className="" />
+			</Link>
 			<button
 				className="navbar-toggler"
 				type="button"
