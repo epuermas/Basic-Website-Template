@@ -18,7 +18,7 @@ export const Jumbotron = () => {
 				leveraged towards working on projects in a team environment.
 			</p>
 			<br />
-			<button className="btn btn-primary btn-lg" data-toggle="modal" data-target="myModal">
+			<button className="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
 				Learn more
 			</button>
 			<br />

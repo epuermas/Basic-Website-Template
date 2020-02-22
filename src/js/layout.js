@@ -11,6 +11,7 @@ import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 import { Jumbotron } from "./component/jumbotron";
 import { Card } from "./component/card";
+import { Modal } from "./component/modal";
 
 //create your first component
 export const Layout = () => {
