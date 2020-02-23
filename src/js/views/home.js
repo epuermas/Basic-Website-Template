@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/home.scss";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { Jumbotron } from "../component/jumbotron";
 import { Footer } from "../component/footer";
@@ -36,6 +37,35 @@ export const Home = () => {
 							</p>
 						</div>
 					</div>
+				</div>
+				<br />
+				<div className="home-icons d-flex justify-content-center">
+					<Link
+						to={"about"}
+						className="about-me-icon far fa-address-card"
+						style={{
+							left: "100px",
+							right: "50px",
+							color: "black"
+						}}
+					/>
+					<Link
+						to={"skills"}
+						className="skills-icon fas fa-cogs"
+						style={{
+							left: "100px",
+							right: "50px",
+							color: "black"
+						}}
+					/>
+					<Link
+						to={"projects"}
+						className="project-icon far fa-folder-open"
+						style={{
+							left: "100px",
+							color: "black"
+						}}
+					/>
 				</div>
 			</div>
 		</div>
