@@ -90,7 +90,7 @@ export const Projects = props => {
 				</div>
 				{/* Seconds Counter List */}
 				<div className="seconds-counter card" style={{ width: "18rem" }}>
-					<img src="https://i.imgur.com/Ae8dXuT.jpg" className="card-img-top" alt="..." />
+					<img src="https://i.imgur.com/5IMkspM.jpg" className="card-img-top" alt="..." />
 					<div className="card-body">
 						<h5 className="card-title">Seconds Counter</h5>
 						<p className="card-text">

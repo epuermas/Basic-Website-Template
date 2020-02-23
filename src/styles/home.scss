@@ -1,3 +1,8 @@
+.layout-container {
+    height: 120vh;
+}
+/*home styling*/
+
 .jumbotron{
     background-image: url(https://technosoftacademy.io/wp-content/uploads/2018/08/codeing-bootcamp-banner-1.png);
     background-size: cover;
@@ -26,11 +31,30 @@
     position: relative;
     left: 40%;
 }
+.badge {
+    position: absolute;
+    margin-left: 2%;
+}
+.home-about-box1 {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.home-about-text {
+    max-width: 25%;
+    border: 1px solid black;
+    border-radius: 12px;
+    border-collapse: separate;
+    margin-top: 1%;
+    background-color: white;
+    padding: 10px;
+}
 
 /*footer styling*/
 .footer {
     background-color: #3F427F;
     max-height: 200px;
+    bottom: 0%;
 }
 .footer-text {
     color: white
@@ -156,20 +180,26 @@
 .discover-law {
     margin-left: 20px;
     margin-right: 20px;
+    box-shadow: 5px 6px 13px #888888;
 }
 .contact-list {
     margin-left: 20px;
     margin-right: 20px;
+    box-shadow: 5px 6px 13px #888888;
 }
 .todo-list {
     margin-left: 20px;
     margin-right: 20px;
+    box-shadow: 5px 6px 13px #888888;
 }
 .traffic-light {
     margin-left: 20px;
     margin-right: 20px;
+    box-shadow: 5px 6px 13px #888888;
 }
 .seconds-counter {
     margin-left: 20px;
     margin-right: 20px;
+    box-shadow: 5px 6px 13px #888888;
 }
+
