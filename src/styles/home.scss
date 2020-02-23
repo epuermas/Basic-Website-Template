@@ -31,25 +31,36 @@
     position: relative;
     left: 40%;
 }
-.badge {
-    position: absolute;
-    margin-left: 2%;
+.about-card {
+    margin-left: 10%;
+    margin-right: 5px;
+    width: 35rem;
+    color: white;
 }
-.home-about-box1 {
-    position: absolute;
-    margin-left: 2%;
-    margin-top: 1%;
+.about-card-title {
+  margin-left: 30%;
+  margin-right: 25%;
 }
-.home-about-text {
-    max-width: 25%;
-    border: 1px solid black;
-    border-radius: 12px;
-    border-collapse: separate;
-    margin-top: 1%;
-    background-color: white;
-    padding: 10px;
+.about-card-body {
+    background-color: #3F427F;
+    border-radius: 25px;
+    border-color: white;
 }
-
+.why-card {
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 35rem;
+    color: white;
+}
+.why-card-title {
+  margin-left: 30%;
+  margin-right: 25%;
+}
+.why-card-body {
+    background-color: #3F427F;
+    border-radius: 25px;
+    border-color: white;
+}
 /*footer styling*/
 .footer {
     background-color: #3F427F;

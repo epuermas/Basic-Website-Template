@@ -12,15 +12,30 @@ export const Home = () => {
 				<div className="jumbotron-home">
 					<Jumbotron />
 				</div>
-			</div>
-			<div className="home-about d-flex flex-row bd-highlight mb-2">
-				<span className="badge badge-pill badge-primary">Why I began coding</span>
-				<div className="home-about-box1">
-					<p className="home-about-text">
-						{
-							"I have always been interested in the world of computing, it’s always seem interesting to me that just how us humans communicate using different languages, so do computers.  And if we understand this language that computers “speak” the possibilities are endless."
-						}
-					</p>
+
+				<div className="d-inline-flex">
+					{/* Card1 */}
+					<div className="about-card card">
+						<div className="about-card-body card-body">
+							<h5 className="about-card-title card-title">Why I Began Coding</h5>
+							<p className="about-card--text card-text">
+								{
+									"I have always been interested in the world of computing, it’s always seem interesting to me that just how us humans communicate using different languages, so do computers.  And if we understand this language that computers “speak” the possibilities are endless.  "
+								}
+							</p>
+						</div>
+					</div>
+					{/* Card2 */}
+					<div className="why-card card">
+						<div className="why-card-body card-body">
+							<h5 className="why-card-title card-title">How I Began Coding</h5>
+							<p className="why-card--text card-text">
+								{
+									"I knew learning to code would be hard on my own, I didn’t know the right path to take nor did I have the guidance of experienced instructors like I did at  4Geeks.  I chose 4Geeks mainly because of the syllabus, it seemed like the complete package to get a working amount of knowledge in the field, and I am happy to say that I made the right decision.  "
+								}
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
