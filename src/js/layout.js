@@ -21,7 +21,7 @@ export const Layout = () => {
 	const basename = process.env.BASENAME || "";
 
 	return (
-		<div className="layout-container d-flex flex-column h-1000">
+		<div className="layout-container d-flex flex-column h-100">
 			<BrowserRouter>
 				<ScrollToTop>
 					<Navbar />
