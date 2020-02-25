@@ -14,7 +14,7 @@ export const Home = () => {
 					<Jumbotron />
 				</div>
 
-				<div className="d-flex justify-content-center">
+				<div className="below-jumbotron d-flex justify-content-center">
 					{/* Card1 */}
 					<div className="about-card card">
 						<div className="about-card-body card-body">
@@ -25,6 +25,12 @@ export const Home = () => {
 								}
 							</p>
 						</div>
+					</div>
+					<div className="home-gif">
+						<img
+							src="https://cdn.lowgif.com/full/fe19eb80eda2e497-home-investellar-corp-the-luxury-property-developer.gif"
+							id="cogwheel-gif"
+						/>
 					</div>
 					{/* Card2 */}
 					<div className="why-card card">
@@ -39,34 +45,6 @@ export const Home = () => {
 					</div>
 				</div>
 				<br />
-				{/* <div className="home-icons d-flex justify-content-center">
-					<Link
-						to={"about"}
-						className="about-me-icon far fa-address-card"
-						style={{
-							left: "100px",
-							right: "50px",
-							color: "black"
-						}}
-					/>
-					<Link
-						to={"skills"}
-						className="skills-icon fas fa-cogs"
-						style={{
-							left: "100px",
-							right: "50px",
-							color: "black"
-						}}
-					/>
-					<Link
-						to={"projects"}
-						className="project-icon far fa-folder-open"
-						style={{
-							left: "100px",
-							color: "black"
-						}}
-					/>
-				</div> */}
 			</div>
 		</div>
 	);

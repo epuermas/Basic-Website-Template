@@ -110,7 +110,7 @@ export const Projects = props => {
 					</div>
 				</div>
 				{/* Random Card Generator */}
-				<div className="seconds-counter card" style={{ width: "18rem" }}>
+				<div className="random-card card" style={{ width: "18rem" }}>
 					<img src="https://i.imgur.com/EpYhJnq.jpg" className="card-img-top" alt="..." />
 					<div className="card-body">
 						<h5 className="card-title">Random Card Generator</h5>
