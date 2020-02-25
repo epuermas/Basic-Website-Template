@@ -18,14 +18,17 @@ export const About = () => {
 			</div>
 			<br />
 			<div className="about-me-info">
-				<div className="face-photo">
+				<div className="face-photo-first">
 					<img src="https://pbs.twimg.com/profile_images/943488527404281857/v9q4Vdqp_400x400.jpg" />
 				</div>
-				<div className="about-me-card card">
+				<div className="about-me-card-first card d-flex justify-content-center">
 					<div className="about-me-card-body card-body">
 						<p className="about-card--text card-text">
 							{
-								"I have always been interested in the world of computing, it’s always seem interesting to me that just how us humans communicate using different languages, so do computers.  And if we understand this language that computers “speak” the possibilities are endless.  "
+								"I was born in Havana, Cuba.   At the age of 3, I moved to Santo Domingo, Dominican Republic.   There, I attended school from Pre-K until 5th grade.  At the age of 10, my mother decided to travel to Miami, FL, USA to pursue a better future.  Once I arrived at Miami, the change of scenery was a shock for me, I learned how to follow the way of life and continued on with my academic progress.  I attended Rockway Middle School and Miami Coral Park Senior High School, ultimately graduating from both."
+							}
+							{
+								"  At this point, I was unsure how to proceed and follow the path of a web developer.  I decided to attend Miami-Dade College to pursue a degree in Computer Science.  A few years into it, I was let down, I had not seen a single line of code in all my time spent at Miami-Dade College, this prompted me to look for other options.  After months of research, I found a coding bootcamp with a promising curriculum, I enrolled and the rest is history..."
 							}
 						</p>
 					</div>

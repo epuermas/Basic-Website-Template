@@ -32,7 +32,6 @@
     left: 40%;
 }
 .about-card {
-    margin-left: 10%;
     margin-right: 5px;
     width: 35rem;
     color: white;
@@ -48,7 +47,6 @@
 }
 .why-card {
     margin-left: 5%;
-    margin-right: 10%;
     width: 35rem;
     color: white;
 }
@@ -133,10 +131,24 @@
 }
 /*about me styling*/
 .about-me-info {
-    display: inline-flex;
+    // display: inline-flex;
+    margin-top: 1%;
 }
-.about-me-card {
+.about-me-card-first {
     width: 35rem;
+    border-radius: 15px 50px 30px 5px;
+    background-color: #3F427F;
+    border-color: white;
+    color: white;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.face-photo-first {
+    position: absolute;
+    max-height: 100px;
+    margin-top: 8%;
+    margin-left: 27%;
+    width: auto;
 }
 /*skills styling*/
 .skills-header{

@@ -18,13 +18,8 @@ export const Navbar = () => {
 				aria-label="Toggle navigation">
 				<span className="navbar-toggler-icon" />
 			</button>
-			<div className="collapse navbar-collapse" id="navbarNav">
+			<div className="collapse navbar-collapse d-flex justify-content-start" id="navbarNav">
 				<ul className="navbar-nav">
-					{/* <li className="nav-item active">
-						<Link to={"/"} className="nav-home" href="#" id="navFind">
-							Home
-						</Link>
-                    </li> */}
 					<li className="nav-item">
 						<Link to={"about"} className="nav-about" href="#" id="navFind">
 							About Me

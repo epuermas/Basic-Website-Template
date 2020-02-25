@@ -14,7 +14,7 @@ export const Home = () => {
 					<Jumbotron />
 				</div>
 
-				<div className="d-inline-flex">
+				<div className="d-flex justify-content-center">
 					{/* Card1 */}
 					<div className="about-card card">
 						<div className="about-card-body card-body">
@@ -39,7 +39,7 @@ export const Home = () => {
 					</div>
 				</div>
 				<br />
-				<div className="home-icons d-flex justify-content-center">
+				{/* <div className="home-icons d-flex justify-content-center">
 					<Link
 						to={"about"}
 						className="about-me-icon far fa-address-card"
@@ -66,7 +66,7 @@ export const Home = () => {
 							color: "black"
 						}}
 					/>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
