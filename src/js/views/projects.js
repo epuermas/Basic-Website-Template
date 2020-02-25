@@ -88,6 +88,8 @@ export const Projects = props => {
 						</a>
 					</div>
 				</div>
+			</div>
+			<div className="projects-cards-bottom d-flex justify-content-center">
 				{/* Seconds Counter List */}
 				<div className="seconds-counter card" style={{ width: "18rem" }}>
 					<img src="https://i.imgur.com/5IMkspM.jpg" className="card-img-top" alt="..." />
@@ -100,6 +102,25 @@ export const Projects = props => {
 						</p>
 						<a
 							href="https://github.com/epuermas/Seconds-Counter"
+							className="btn btn-primary"
+							target="_blank"
+							rel="noopener noreferrer">
+							Go to repository
+						</a>
+					</div>
+				</div>
+				{/* Random Card Generator */}
+				<div className="seconds-counter card" style={{ width: "18rem" }}>
+					<img src="https://i.imgur.com/EpYhJnq.jpg" className="card-img-top" alt="..." />
+					<div className="card-body">
+						<h5 className="card-title">Random Card Generator</h5>
+						<p className="card-text">
+							Code that prints a random card any time the uses refreshes the page.
+							<br />
+							<br />
+						</p>
+						<a
+							href="https://github.com/epuermas/Random-Card-Generator"
 							className="btn btn-primary"
 							target="_blank"
 							rel="noopener noreferrer">
