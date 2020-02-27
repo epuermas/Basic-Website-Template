@@ -26,12 +26,12 @@ export const Home = () => {
 							</p>
 						</div>
 					</div>
-					<div className="home-gif">
+					{/* <div className="home-gif">
 						<img
 							src="https://cdn.lowgif.com/full/fe19eb80eda2e497-home-investellar-corp-the-luxury-property-developer.gif"
 							id="cogwheel-gif"
 						/>
-					</div>
+					</div> */}
 					{/* Card2 */}
 					<div className="why-card card">
 						<div className="why-card-body card-body">
