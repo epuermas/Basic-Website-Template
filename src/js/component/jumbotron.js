@@ -11,16 +11,16 @@ export const Jumbotron = () => {
 	const handleShow = () => setShow(true);
 	return (
 		<div className="jumbotron jumbotron-fluid">
-			<h1 className="display-4">Eduardo Puermas</h1>
+			<h1 className="display-4">Insert your name here</h1>
 			<p className="lead">
-				Dedicated web developer constantly learning and using
+				Insert brief description here
 				<br />
-				the latest front-end and back-end technologies.
+				Insert brief description here
 				<br />
 				<br />
-				Excited about opportunities where experience can best be
+				Insert brief description here
 				<br />
-				leveraged towards working on projects in a team environment.
+				Insert brief description here
 			</p>
 			<br />
 			<Button variant="btn btn-primary btn-lg" onClick={handleShow}>
@@ -36,7 +36,7 @@ export const Jumbotron = () => {
 
 				<Modal.Body>
 					<div>
-						<img className="resume" src="https://i.imgur.com/5bStlUY.jpg" />
+						<img className="resume" src="https://i.imgur.com/0GnYBQQ.jpg" />
 					</div>
 				</Modal.Body>
 

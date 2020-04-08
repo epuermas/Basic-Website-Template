@@ -10,9 +10,7 @@ export const Skills = () => {
 			<div className="skills-header d-flex justify-content-center">
 				<h1>Skills</h1>
 			</div>
-			<p className="skills-text d-flex justify-content-center">
-				These are the languages I have learned so far, the list is growing and constantly being updated.
-			</p>
+			<p className="skills-text d-flex justify-content-center">Insert header description</p>
 			<br />
 			<div className="skills-languages-top d-flex justify-content-center">
 				<img

@@ -9,20 +9,15 @@ export const Projects = props => {
 			<div className="skills-header d-flex justify-content-center">
 				<h1>Projects</h1>
 			</div>
-			<p className="skills-text d-flex justify-content-center">
-				These are the projects I have worked on and completed, the list is growing and constantly being updated.
-			</p>
+			<p className="skills-text d-flex justify-content-center">Insert header description</p>
 			<br />
 			<div className="projects-cards d-flex justify-content-center">
 				{/* DiscoverLaw */}
 				<div className="discover-law card" style={{ width: "18rem" }}>
-					<img src="https://i.imgur.com/5A6LNz5.jpg" className="card-img-top" alt="..." />
+					<img src="" className="card-img-top" alt="..." />
 					<div className="card-body">
-						<h5 className="card-title">DiscoverLaw</h5>
-						<p className="card-text">
-							Website that allows users to directly ask attorneys legal questions and locate Law Firms
-							based on legal needs.
-						</p>
+						<h5 className="card-title">Insert Project Title</h5>
+						<p className="card-text">Insert project description</p>
 						<a
 							href="https://github.com/epuermas/Final-Project"
 							className="btn btn-primary"
