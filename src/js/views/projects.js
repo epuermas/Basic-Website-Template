@@ -28,7 +28,7 @@ export const Projects = props => {
 					</div>
 				</div>
 				{/* Contact List */}
-				<div className="contact-list card" style={{ width: "18rem" }}>
+				{/* <div className="contact-list card" style={{ width: "18rem" }}>
 					<img src="https://i.imgur.com/8t8YWT3.jpg" className="card-img-top" alt="..." />
 					<div className="card-body">
 						<h5 className="card-title">Interactive Contact List</h5>
@@ -44,9 +44,9 @@ export const Projects = props => {
 							Go to repository
 						</a>
 					</div>
-				</div>
+				</div> */}
 				{/* To-do List */}
-				<div className="todo-list card" style={{ width: "18rem" }}>
+				{/* <div className="todo-list card" style={{ width: "18rem" }}>
 					<img src="https://i.imgur.com/2XLG6v5.jpg" className="card-img-top" alt="..." />
 					<div className="card-body">
 						<h5 className="card-title">Interactive To-Do List</h5>
@@ -63,9 +63,9 @@ export const Projects = props => {
 							Go to repository
 						</a>
 					</div>
-				</div>
+				</div> */}
 				{/* Traffic light List */}
-				<div className="traffic-light card" style={{ width: "18rem" }}>
+				{/* <div className="traffic-light card" style={{ width: "18rem" }}>
 					<img src="https://i.imgur.com/Ae8dXuT.jpg" className="card-img-top" alt="..." />
 					<div className="card-body">
 						<h5 className="card-title">Interactive Traffic Light</h5>
@@ -84,9 +84,9 @@ export const Projects = props => {
 					</div>
 				</div>
 			</div>
-			<div className="projects-cards-bottom d-flex justify-content-center">
+			<div className="projects-cards-bottom d-flex justify-content-center"> */}
 				{/* Seconds Counter List */}
-				<div className="seconds-counter card" style={{ width: "18rem" }}>
+				{/* <div className="seconds-counter card" style={{ width: "18rem" }}>
 					<img src="https://i.imgur.com/5IMkspM.jpg" className="card-img-top" alt="..." />
 					<div className="card-body">
 						<h5 className="card-title">Seconds Counter</h5>
@@ -103,9 +103,9 @@ export const Projects = props => {
 							Go to repository
 						</a>
 					</div>
-				</div>
+				</div> */}
 				{/* Random Card Generator */}
-				<div className="random-card card" style={{ width: "18rem" }}>
+				{/* <div className="random-card card" style={{ width: "18rem" }}>
 					<img src="https://i.imgur.com/EpYhJnq.jpg" className="card-img-top" alt="..." />
 					<div className="card-body">
 						<h5 className="card-title">Random Card Generator</h5>
@@ -122,7 +122,7 @@ export const Projects = props => {
 							Go to repository
 						</a>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
