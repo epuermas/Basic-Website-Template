@@ -9,11 +9,18 @@ export const Footer = () => (
 			</a>
 		</p>
 		<div className="footer-icons align-self-center">
-			<a className="fab fa-linkedin" a href="" id="linkedin-footer" target="_blank" rel="noopener noreferrer" />
+			<a
+				className="fab fa-linkedin"
+				a
+				href="https://www.linkedin.com/in/epuermas"
+				id="linkedin-footer"
+				target="_blank"
+				rel="noopener noreferrer"
+			/>
 			<a
 				className="fab fa-github-square"
 				a
-				href=""
+				href="https://github.com/epuermas"
 				id="github-footer"
 				target="_blank"
 				rel="noopener noreferrer"
