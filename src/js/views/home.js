@@ -22,13 +22,6 @@ export const Home = () => {
 							<p className="about-card--text card-text">{"Insert your information here"}</p>
 						</div>
 					</div>
-					{/* <div className="home-gif">
-						<img
-							src="https://cdn.lowgif.com/full/fe19eb80eda2e497-home-investellar-corp-the-luxury-property-developer.gif"
-							id="cogwheel-gif"
-						/>
-					</div> */}
-					{/* Card2 */}
 					<div className="why-card card">
 						<div className="why-card-body card-body">
 							<h5 className="why-card-title card-title">How I Began Coding</h5>
