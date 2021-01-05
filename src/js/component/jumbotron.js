@@ -35,9 +35,9 @@ export const Jumbotron = () => {
 				</Modal.Header>
 
 				<Modal.Body>
-					<div>
+					{/* <div>
 						<img className="resume" src="https://i.imgur.com/0GnYBQQ.jpg" />
-					</div>
+					</div> */}
 				</Modal.Body>
 
 				<Modal.Footer>
