@@ -64,10 +64,3 @@ const MyComponentSuper = () => {
   return <div>{/* you can use your actions or store inside the html */}</div>
 }
 ```
-
-## Publish your website!
-This boilerplate is 100% compatible with the free github pages hosting.
-To publish your website you need to push your code to your github repository and run the following command after:
-```sh
-$ npm run deploy
-```
